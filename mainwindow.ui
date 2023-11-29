@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1750</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GuardTheGlory</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="warrior">
+    <normaloff>.</normaloff>.</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(:/new/prefix1/image/background/BGspace.png)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>520</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/button/start.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>620</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/button/exit.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="intropushButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>520</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/music/image/button/introgame.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="operapushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>620</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/music/image/button/operate.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
